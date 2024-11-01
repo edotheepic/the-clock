@@ -1,8 +1,7 @@
-# React + Vite
+# The Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small app created for the purpose of learning React JS frontend development. Can be accessed through <https://edotheepic.github.io/the-clock/>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Created Using
+- React JS
+- Tailwind CSS
