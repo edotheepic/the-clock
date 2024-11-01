@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Clock from './components/Clock'
 import Layout from './Pages/Layout'
 import Home from './Pages/Home'
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path='/' element={<Layout/>}>
             <Route index element={<Home/>}></Route>
@@ -18,7 +18,7 @@ function App() {
             <Route path="*" element={<NoPage/>}></Route>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
       {/* <Clock></Clock> */}
     </>
   )
