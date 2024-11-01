@@ -16,7 +16,7 @@ export default function Clock(params) {
         setMinute(m);
         setSecond(s);
       }, 1000);
-    })
+    });
 
     return (
         <div className="mt-10">
