@@ -7,7 +7,7 @@ export default function Clock(params) {
     const [ second , setSecond ] = useState(null);
 
     useEffect(() => {
-      setInterval(() => {
+      const interval = setInterval(() => {
         let h = new Date().getHours();
         let m = new Date().getMinutes();
         let s = new Date().getSeconds();
@@ -16,7 +16,7 @@ export default function Clock(params) {
         setMinute(m);
         setSecond(s);
       }, 1000);
-    });
+    },[]);
 
     return (
         <div className="mt-10">
